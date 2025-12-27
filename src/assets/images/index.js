@@ -1,0 +1,11 @@
+export { default as CircleLeftPng } from "./circle-left.png";
+export { default as CircleRightPng } from "./circle-right.png";
+export { default as Doc1Png } from "./doc-1.png";
+export { default as Doc2Png } from "./doc-2.png";
+export { default as Doc3Png } from "./doc-3.png";
+export { default as Dots1Png } from "./dots-1.png";
+export { default as Dots2Png } from "./dots-2.png";
+export { default as Hero1Png } from "./hero-1.png";
+export { default as Product1Png } from "./product-1.png";
+export { default as Product2Png } from "./product-2.png";
+export { default as Product3Png } from "./product-3.png";
