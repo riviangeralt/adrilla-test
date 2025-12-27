@@ -11,7 +11,7 @@ A modern React application built with Vite, featuring routing and component-base
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/riviangeralt/adrilla-test.git
    cd adrilla-test
    ```
 
