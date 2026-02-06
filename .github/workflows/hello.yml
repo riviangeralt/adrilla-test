@@ -1,12 +1,18 @@
-name: My First CI
+name: Node CI
 
 on:
   push:
 
 jobs:
-  hello:
+  node:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Say hello
-        run: echo "Hello CI/CD 👋 Test"
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - run: node -v
+      - run: npm -v
