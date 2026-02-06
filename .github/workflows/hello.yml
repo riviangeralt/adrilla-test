@@ -9,4 +9,4 @@ jobs:
 
     steps:
       - name: Say hello
-        run: echo "Hello CI/CD 👋"
+        run: echo "Hello CI/CD 👋 Test"
